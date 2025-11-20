@@ -1,0 +1,28 @@
+# Python virtual environment folders
+venv/
+mynv/
+env/
+ENV/
+*.env
+
+# Streamlit and FastAPI cache files
+**/__pycache__/
+**/.pytest_cache/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints and local config
+.ipynb_checkpoints/
+
+
+
+# System/IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# OS junk files
+*.swp
+*~
