@@ -4,19 +4,19 @@ Modular machine learning pipeline for electric motor speed prediction with a Fas
 
 ## Folder structure
 
-motor_speed_predictor/
-├── backend/
-│   ├── main.py
-│   ├── model/
-│   │   └── motor_speed_model.pkl
-│   ├── preprocessing/
-│   │   └── pipeline.py
-│   ├── predictor.py
-│   ├── schemas.py
-│   └── requirements.txt
-├── frontend/
-│   ├── app.py
-│   └── requirements.txt
+      motor_speed_predictor/
+      ├── backend/
+      │   ├── main.py
+      │   ├── model/
+      │   │   └── motor_speed_model.pkl
+      │   ├── preprocessing/
+      │   │   └── pipeline.py
+      │   ├── predictor.py
+      │   ├── schemas.py
+      │   └── requirements.txt
+      ├── frontend/
+      │   ├── app.py
+      │   └── requirements.txt
 
 ## Usage
 
@@ -31,6 +31,8 @@ py 3.10 -m venv mynv
    `streamlit run frontend/app.py`
 
 The frontend UI lets users enter sensor features and receive predicted motor speed from the backend.
+
+
 cd path\to\motor_speed_predictor
 py 3.10 -m venv mynv
 .\mynv\Scripts\Activate
